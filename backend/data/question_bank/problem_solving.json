@@ -1,0 +1,47 @@
+[
+  {
+    "question_id": "PS_001",
+    "text": "You're given ambiguous requirements with a tight deadline. Walk me through how you'd approach the work.",
+    "skill": "ambiguity",
+    "difficulty": "medium",
+    "round": "problem_solving",
+    "type": "scenario",
+    "expected_concepts": ["clarify assumptions", "identify what's actually needed first", "iterative approach", "communicate tradeoffs"]
+  },
+  {
+    "question_id": "PS_002",
+    "text": "Your team has to cut scope to hit a release date. How would you decide what to cut?",
+    "skill": "prioritization",
+    "difficulty": "medium",
+    "round": "problem_solving",
+    "type": "scenario",
+    "expected_concepts": ["explicit prioritization criteria", "stakeholder input", "risk of cutting each option"]
+  },
+  {
+    "question_id": "PS_003",
+    "text": "A production system is down and you don't yet know why. What's your first move?",
+    "skill": "incident_response",
+    "difficulty": "hard",
+    "round": "problem_solving",
+    "type": "scenario",
+    "expected_concepts": ["mitigate impact first", "systematic diagnosis", "communication to stakeholders", "root cause after stabilizing"]
+  },
+  {
+    "question_id": "PS_004",
+    "text": "Two of your teammates strongly disagree on a technical approach and it's blocking progress. What do you do?",
+    "skill": "decision_making",
+    "difficulty": "medium",
+    "round": "problem_solving",
+    "type": "scenario",
+    "expected_concepts": ["facilitate rather than dictate", "criteria-based decision", "unblock without dismissing either side"]
+  },
+  {
+    "question_id": "PS_005",
+    "text": "You realize partway through a project that the original approach won't scale to the actual requirements. What do you do?",
+    "skill": "ownership",
+    "difficulty": "hard",
+    "round": "problem_solving",
+    "type": "scenario",
+    "expected_concepts": ["surface the issue early", "cost/benefit of changing course", "communication with stakeholders"]
+  }
+]

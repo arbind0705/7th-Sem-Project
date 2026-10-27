@@ -1,0 +1,182 @@
+[
+  {
+    "question_id": "GEN_001",
+    "text": "What is overfitting in machine learning, and how would you detect it?",
+    "skill": "machine_learning",
+    "difficulty": "easy",
+    "round": "technical",
+    "type": "conceptual",
+    "expected_concepts": ["training performance high", "validation/test performance poor", "poor generalization", "regularization", "more data"]
+  },
+  {
+    "question_id": "GEN_002",
+    "text": "What's the difference between supervised and unsupervised learning?",
+    "skill": "machine_learning",
+    "difficulty": "easy",
+    "round": "technical",
+    "type": "conceptual",
+    "expected_concepts": ["labeled vs unlabeled data", "prediction vs pattern discovery", "example algorithms"]
+  },
+  {
+    "question_id": "GEN_003",
+    "text": "How would you handle a dataset with severe class imbalance?",
+    "skill": "machine_learning",
+    "difficulty": "medium",
+    "round": "technical",
+    "type": "practical",
+    "expected_concepts": ["resampling", "class weights", "appropriate metrics beyond accuracy", "synthetic data (SMOTE)"]
+  },
+  {
+    "question_id": "PY_001",
+    "text": "What's the difference between a list and a tuple in Python, and when would you use each?",
+    "skill": "python",
+    "difficulty": "easy",
+    "round": "technical",
+    "type": "conceptual",
+    "expected_concepts": ["mutability", "tuples are immutable", "lists are mutable", "performance/memory", "use case for fixed data"]
+  },
+  {
+    "question_id": "PY_002",
+    "text": "Explain how Python's garbage collection works.",
+    "skill": "python",
+    "difficulty": "medium",
+    "round": "technical",
+    "type": "conceptual",
+    "expected_concepts": ["reference counting", "cyclic garbage collector", "generational collection", "gc module"]
+  },
+  {
+    "question_id": "PY_003",
+    "text": "What's the difference between a Python list comprehension and a generator expression, and when does it matter?",
+    "skill": "python",
+    "difficulty": "medium",
+    "round": "technical",
+    "type": "comparison",
+    "expected_concepts": ["eager vs lazy evaluation", "memory usage", "one-time iteration for generators"]
+  },
+  {
+    "question_id": "PY_004",
+    "text": "Your Python script that processes a large CSV is running out of memory. Walk me through how you'd debug and fix it.",
+    "skill": "python",
+    "difficulty": "hard",
+    "round": "technical",
+    "type": "debugging",
+    "expected_concepts": ["profiling memory usage", "chunked/streaming reads", "avoiding loading entire file", "generators", "appropriate data types"]
+  },
+  {
+    "question_id": "CV_001",
+    "text": "How does a convolutional layer differ from a fully connected layer?",
+    "skill": "deep_learning",
+    "difficulty": "medium",
+    "round": "technical",
+    "type": "conceptual",
+    "expected_concepts": ["local receptive field", "weight sharing", "parameter efficiency", "spatial structure preserved"]
+  },
+  {
+    "question_id": "CV_002",
+    "text": "How does YOLO perform object detection?",
+    "skill": "yolo",
+    "difficulty": "medium",
+    "round": "technical",
+    "type": "conceptual",
+    "expected_concepts": ["single pass/single shot", "grid cells", "bounding boxes", "class probabilities", "non-max suppression"]
+  },
+  {
+    "question_id": "CV_003",
+    "text": "Why might you choose a two-stage detector like Faster R-CNN over a one-stage detector like YOLO, or vice versa?",
+    "skill": "computer_vision",
+    "difficulty": "hard",
+    "round": "technical",
+    "type": "comparison",
+    "expected_concepts": ["speed vs accuracy tradeoff", "region proposals", "real-time constraints", "use-case dependent"]
+  },
+  {
+    "question_id": "CV_004",
+    "text": "Your object detection model performs well on your validation set but poorly in production. What would you investigate?",
+    "skill": "computer_vision",
+    "difficulty": "hard",
+    "round": "technical",
+    "type": "debugging",
+    "expected_concepts": ["data distribution shift", "lighting/camera differences", "validation set not representative", "preprocessing mismatch"]
+  },
+  {
+    "question_id": "CV_005",
+    "text": "What is data augmentation, and why is it especially useful for computer vision tasks?",
+    "skill": "computer_vision",
+    "difficulty": "easy",
+    "round": "technical",
+    "type": "conceptual",
+    "expected_concepts": ["synthetic variation", "reduces overfitting", "flips/rotations/crops/color jitter", "improves generalization"]
+  },
+  {
+    "question_id": "SYS_001",
+    "text": "How would you design a system to serve a machine learning model to thousands of concurrent users?",
+    "skill": "system_design",
+    "difficulty": "hard",
+    "round": "technical",
+    "type": "system_design",
+    "expected_concepts": ["load balancing", "model serving/batching", "caching", "horizontal scaling", "monitoring/latency"]
+  },
+  {
+    "question_id": "SYS_002",
+    "text": "Design a URL shortener. What are the key components and how would they scale?",
+    "skill": "system_design",
+    "difficulty": "medium",
+    "round": "technical",
+    "type": "system_design",
+    "expected_concepts": ["hashing/encoding scheme", "database schema", "read-heavy caching", "collision handling"]
+  },
+  {
+    "question_id": "DS_001",
+    "text": "When would you use a hash map versus a balanced binary search tree?",
+    "skill": "data_structures",
+    "difficulty": "medium",
+    "round": "technical",
+    "type": "comparison",
+    "expected_concepts": ["average O(1) vs O(log n)", "ordering requirement", "worst-case behavior"]
+  },
+  {
+    "question_id": "DS_002",
+    "text": "Given a stream of numbers too large to fit in memory, how would you find the median?",
+    "skill": "algorithms",
+    "difficulty": "hard",
+    "round": "technical",
+    "type": "scenario",
+    "expected_concepts": ["two heaps approach", "approximate methods", "memory constraints", "streaming algorithm"]
+  },
+  {
+    "question_id": "DB_001",
+    "text": "What's the difference between a SQL and a NoSQL database, and how would you decide which to use for a new project?",
+    "skill": "databases",
+    "difficulty": "easy",
+    "round": "technical",
+    "type": "comparison",
+    "expected_concepts": ["schema flexibility", "consistency vs scalability tradeoffs", "relational integrity", "use-case dependent"]
+  },
+  {
+    "question_id": "DB_002",
+    "text": "A database query that used to be fast is now taking seconds. How would you diagnose it?",
+    "skill": "databases",
+    "difficulty": "medium",
+    "round": "technical",
+    "type": "debugging",
+    "expected_concepts": ["query plan/EXPLAIN", "missing index", "table growth", "lock contention"]
+  },
+  {
+    "question_id": "DOCK_001",
+    "text": "What problem does Docker solve, and what's the difference between an image and a container?",
+    "skill": "docker",
+    "difficulty": "easy",
+    "round": "technical",
+    "type": "conceptual",
+    "expected_concepts": ["environment consistency", "image is a template", "container is a running instance", "isolation"]
+  },
+  {
+    "question_id": "API_001",
+    "text": "What makes an API RESTful, and what are the tradeoffs versus something like GraphQL?",
+    "skill": "api_design",
+    "difficulty": "medium",
+    "round": "technical",
+    "type": "comparison",
+    "expected_concepts": ["resource-based endpoints", "statelessness", "over/under-fetching", "flexibility vs simplicity"]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "question_id": "PRJ_001",
+    "text": "Pick a project from your resume. What exactly did you personally implement?",
+    "skill": "project_ownership",
+    "difficulty": "easy",
+    "round": "project",
+    "type": "project",
+    "expected_concepts": ["specific personal contribution", "not just team description", "concrete technical detail"]
+  },
+  {
+    "question_id": "PRJ_002",
+    "text": "What alternatives did you consider for that project, and why did you choose your final approach?",
+    "skill": "project_ownership",
+    "difficulty": "medium",
+    "round": "project",
+    "type": "comparison",
+    "expected_concepts": ["named alternative", "tradeoff reasoning", "justification tied to constraints"]
+  },
+  {
+    "question_id": "PRJ_003",
+    "text": "What failed or broke during that project, and how did you debug it?",
+    "skill": "debugging",
+    "difficulty": "medium",
+    "round": "project",
+    "type": "debugging",
+    "expected_concepts": ["specific failure", "debugging process", "root cause", "resolution"]
+  },
+  {
+    "question_id": "PRJ_004",
+    "text": "How would you scale or improve that project if you had another month?",
+    "skill": "project_ownership",
+    "difficulty": "medium",
+    "round": "project",
+    "type": "project",
+    "expected_concepts": ["concrete improvement", "awareness of current limitations"]
+  },
+  {
+    "question_id": "PRJ_005",
+    "text": "How did you test this project, and what would you have tested differently in hindsight?",
+    "skill": "testing",
+    "difficulty": "medium",
+    "round": "project",
+    "type": "project",
+    "expected_concepts": ["specific testing approach", "coverage gaps", "what they'd change"]
+  },
+  {
+    "question_id": "PRJ_006",
+    "text": "How was this project actually deployed or delivered, and what part of that did you handle yourself?",
+    "skill": "deployment",
+    "difficulty": "medium",
+    "round": "project",
+    "type": "project",
+    "expected_concepts": ["deployment process", "personal involvement", "concrete infrastructure detail"]
+  },
+  {
+    "question_id": "PRJ_007",
+    "text": "What was the hardest technical problem you ran into on this project, and how did you approach solving it?",
+    "skill": "problem_solving",
+    "difficulty": "medium",
+    "round": "project",
+    "type": "scenario",
+    "expected_concepts": ["specific hard problem named", "systematic approach", "outcome"]
+  },
+  {
+    "question_id": "PRJ_008",
+    "text": "If a teammate had to take over this project tomorrow, what would confuse them most about your implementation?",
+    "skill": "project_ownership",
+    "difficulty": "hard",
+    "round": "project",
+    "type": "scenario",
+    "expected_concepts": ["self-awareness of design tradeoffs", "known technical debt", "documentation gaps"]
+  }
+]

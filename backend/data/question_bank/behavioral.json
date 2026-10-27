@@ -1,0 +1,74 @@
+[
+  {
+    "question_id": "BEH_001",
+    "text": "Tell me about a time you disagreed with a teammate. What happened?",
+    "skill": "teamwork",
+    "difficulty": "easy",
+    "round": "behavioral",
+    "type": "behavioral",
+    "expected_concepts": ["specific situation", "candidate's own action", "outcome/result", "reflection"]
+  },
+  {
+    "question_id": "BEH_002",
+    "text": "Describe a situation where you had to meet a deadline with incomplete information.",
+    "skill": "ownership",
+    "difficulty": "medium",
+    "round": "behavioral",
+    "type": "behavioral",
+    "expected_concepts": ["specific situation", "decision under ambiguity", "outcome", "what they'd do differently"]
+  },
+  {
+    "question_id": "BEH_003",
+    "text": "What would you change about how you work if you could go back and redo your last project?",
+    "skill": "reflection",
+    "difficulty": "easy",
+    "round": "behavioral",
+    "type": "behavioral",
+    "expected_concepts": ["genuine self-reflection", "specific learning"]
+  },
+  {
+    "question_id": "BEH_004",
+    "text": "Tell me about a time you had to adapt quickly to a significant change in requirements or priorities.",
+    "skill": "adaptability",
+    "difficulty": "medium",
+    "round": "behavioral",
+    "type": "behavioral",
+    "expected_concepts": ["specific situation", "concrete adjustment made", "outcome"]
+  },
+  {
+    "question_id": "BEH_005",
+    "text": "Describe a time you received critical feedback. How did you respond to it?",
+    "skill": "communication",
+    "difficulty": "medium",
+    "round": "behavioral",
+    "type": "behavioral",
+    "expected_concepts": ["specific feedback", "genuine response rather than defensiveness", "what changed afterward"]
+  },
+  {
+    "question_id": "BEH_006",
+    "text": "Tell me about a time you had to explain something technical to someone without a technical background.",
+    "skill": "communication",
+    "difficulty": "easy",
+    "round": "behavioral",
+    "type": "behavioral",
+    "expected_concepts": ["simplification without losing accuracy", "awareness of audience", "concrete example"]
+  },
+  {
+    "question_id": "BEH_007",
+    "text": "Describe a situation where you had to prioritize between multiple competing tasks. How did you decide?",
+    "skill": "prioritization",
+    "difficulty": "medium",
+    "round": "behavioral",
+    "type": "scenario",
+    "expected_concepts": ["explicit prioritization criteria", "tradeoff acknowledged", "outcome"]
+  },
+  {
+    "question_id": "BEH_008",
+    "text": "Tell me about a mistake you made at work or in a project. What did you do about it?",
+    "skill": "ownership",
+    "difficulty": "medium",
+    "round": "behavioral",
+    "type": "behavioral",
+    "expected_concepts": ["genuine mistake owned", "corrective action", "learning taken forward"]
+  }
+]

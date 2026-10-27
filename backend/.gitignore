@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+recruitment.db
+data/face_landmarker.task

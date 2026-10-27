@@ -1,0 +1,56 @@
+[
+  {
+    "question_id": "HR_001",
+    "text": "What are you looking for in your next role, and why this one?",
+    "skill": "motivation",
+    "difficulty": "easy",
+    "round": "hr",
+    "type": "hr",
+    "expected_concepts": ["specific and genuine reasoning", "connection to the role", "not purely generic"]
+  },
+  {
+    "question_id": "HR_002",
+    "text": "What's your availability and expected timeline to join if offered the role?",
+    "skill": "logistics",
+    "difficulty": "easy",
+    "round": "hr",
+    "type": "hr",
+    "expected_concepts": ["clear timeline", "any constraints named"]
+  },
+  {
+    "question_id": "HR_003",
+    "text": "How do you like to work — independently, in a team, remote, in-office? What's your ideal setup?",
+    "skill": "work_style",
+    "difficulty": "easy",
+    "round": "hr",
+    "type": "hr",
+    "expected_concepts": ["self-aware answer", "consistent with role's actual working model"]
+  },
+  {
+    "question_id": "HR_004",
+    "text": "Where do you see yourself professionally in the next few years?",
+    "skill": "career_goals",
+    "difficulty": "easy",
+    "round": "hr",
+    "type": "hr",
+    "expected_concepts": ["plausible trajectory", "some alignment with the role"]
+  },
+  {
+    "question_id": "HR_005",
+    "text": "Is there anything about this role or the team that concerns you, or that you'd like more clarity on?",
+    "skill": "communication",
+    "difficulty": "medium",
+    "round": "hr",
+    "type": "hr",
+    "expected_concepts": ["genuine engagement", "thoughtful question rather than none at all"]
+  },
+  {
+    "question_id": "HR_006",
+    "text": "Do you have any questions for us?",
+    "skill": "communication",
+    "difficulty": "easy",
+    "round": "hr",
+    "type": "hr",
+    "expected_concepts": ["shows genuine interest", "specific rather than generic questions"]
+  }
+]

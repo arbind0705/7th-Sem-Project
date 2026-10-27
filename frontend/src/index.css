@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+
+  /* Warm neutral scale — not the default zinc/slate everyone ships. */
+  --color-paper: #faf9f6;
+  --color-paper-raised: #ffffff;
+  --color-ink: #1a1a17;
+  --color-ink-soft: #57564f;
+  --color-line: #e3e1d9;
+
+  --color-paper-dark: #131311;
+  --color-paper-raised-dark: #1c1c19;
+  --color-ink-dark: #ece9e1;
+  --color-ink-soft-dark: #a3a196;
+  --color-line-dark: #2d2c27;
+
+  /* One accent hue: rust/terracotta, used sparingly for actions + emphasis. */
+  --color-accent: #b5502a;
+  --color-accent-strong: #963f1f;
+  --color-accent-soft: #f1e0d5;
+  --color-accent-soft-dark: #3a2419;
+
+  --color-good: #4a7a4a;
+  --color-warn: #a97b1f;
+  --color-bad: #a8402f;
+}
+
+html {
+  color-scheme: light;
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+[data-theme="dark"] body {
+  background: var(--color-paper-dark);
+  color: var(--color-ink-dark);
+}
+
+::selection {
+  background: var(--color-accent-soft);
+}
+[data-theme="dark"] ::selection {
+  background: var(--color-accent-soft-dark);
+}
